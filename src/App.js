@@ -1,26 +1,46 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+//import './App.css';
+//import products from "./Products.json"
+import Footer from './components/home/footer/Footer';
+import Home from './components/home/Home';
+import ProductPage from './components/products/Products';
+import Contact from './components/contact/Contact';
+import Nav from './components/nav/Nav';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Products from './components/products/Products';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+
+
+  render() { 
+    return ( 
+      <Router>
+        <div className="App">
+          <Nav />
+          <Route exact path="/home" component={Home} />
+          <Route exact path="/products" component={Products} />
+          <Route path="/contact" component={Contact} />
+          <Footer />
+        </div>
+      </Router>
+     );
+  }
 }
+{/* <div className="cardDoc">
+        {this.state.products.map(f => {
+          return(
+            <Products 
+            id={f.id}
+            name={f.name}
+            image={f.image}
+            price={f.price}
+            description={f.description}
+          />
+          )
+        })}
+      </div> */}
 
+
+
+ 
 export default App;

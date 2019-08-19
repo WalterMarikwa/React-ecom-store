@@ -1,0 +1,86 @@
+[
+    {
+      "category": "Guitar",
+      "name": "Bass Guitar",
+      "image": "https://bit.ly/2H19RSD",
+      "price": "$1755",
+      "description": "The bass guitar is a plucked string instrument."
+    },
+    {
+        "category": "Guitar",
+        "name": "Semi Acoustic Guitar",
+        "image": "https://bit.ly/2OBW2jx",
+        "price": "$1279",
+        "description": "A semi-acoustic guitar is a type of electric guitar that originates from the 1930s."
+    },
+    {
+        "category": "Guitar",
+        "name": "Electric Guitar",
+        "image": "https://bit.ly/2N7Un3b",
+        "price": "$1342",
+        "description": "An electric guitar converts the vibration of its strings into electrical signals."
+    },
+    {
+        "category": "Djset",
+        "name": "Pioneer Dj Set",
+        "image": "https://bit.ly/2OJUy6Y",
+        "price": "$3000",
+        "description": "Consoles used in sound reinforcement systems and sound recording."
+    },
+    {
+        "category": "Djset",
+        "name": "Party Mix",
+        "image": "https://bit.ly/2MkA5n9",
+        "price": "$2387",
+        "description": "Consoles used in sound reinforcement systems and sound recording."
+    },
+    {
+        "category": "Djset",
+        "name": "Hercules mix Dj",
+        "image": "https://bit.ly/2Z0Dutj",
+        "price": "$2500",
+        "description": "Consoles used in sound reinforcement systems and sound recording."
+    },
+    {
+        "category": "Headphones",
+        "name": "Black Headphones",
+        "image": "https://bit.ly/31HAiVp",
+        "price": "$120",
+        "description": "Speakers that can be worn in or around your ears."
+    },
+    {
+        "category": "Headphones",
+        "name": "White Beats",
+        "image": "https://bit.ly/2YQCTza",
+        "price": "$300",
+        "description": "Speakers that can be worn in or around your ears."
+    },
+    {
+        "category": "Headphones",
+        "name": "Rave Beats",
+        "image": "https://bit.ly/31wcTpM",
+        "price": "$175",
+        "description": "Speakers that can be worn in or around your ears."
+    },
+    {
+        "category": "Others",
+        "name": "Key Board",
+        "image": "https://bit.ly/2KweJBc",
+        "price": "$175",
+        "description": "A musical instrument played using a keyboard, a row of levers."
+    },
+    {
+        "category": "Others",
+        "name": "Drums2.0",
+        "image": "https://bit.ly/2GNmH6X",
+        "price": "$175",
+        "description": "A musical instrument which produces sound by the vibration."
+    },
+    {
+        "category": "Others",
+        "name": "Violin",
+        "image": "https://bit.ly/2MzHYEO",
+        "price": "$175",
+        "description": "A wooden string instrument in the violin family."
+    }
+  ]
